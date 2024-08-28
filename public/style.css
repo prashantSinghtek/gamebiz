@@ -1,0 +1,257 @@
+
+.contact-wrapper {
+  background: url(./img/image.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-text {
+  color: #ffffffff;
+  font-size: 24px;
+}
+
+.contact-heading {
+  font-size: 70px;
+}
+
+.country-text {
+  color: #EC5B27;
+
+}
+
+.game-text {
+  color: #ffffff;
+}
+
+.industry-text {
+  color: #86BE40;
+}
+
+.contact-btn {
+  background-color: #479DFF;
+  color: #ffffff;
+  border-radius: 4px;
+  padding: 17px 30px;
+  font-size: 22px;
+  border: none;
+}
+
+.key-title {
+  font-size: 20px;
+  color: #000000;
+  display: inline;
+  border-bottom: 2px solid #86BE40;
+}
+
+.key-section {
+  margin: 100px 0 0 0;
+}
+
+.key-heading {
+  font-size: 40px;
+  color: #000000;
+  font-weight: 600;
+  margin: 32px 0 0 0;
+}
+
+.key-para {
+  font-size: 16px;
+  color: #777777;
+
+}
+
+.heading-wrapper {
+  max-width: 580px;
+  width: 100%;
+}
+
+.features-heading {
+  color: #222222;
+  font-size: 22px;
+  font-weight: 600;
+
+}
+
+.features-deatils {
+  color: #777777;
+  font-size: 16px;
+}
+.Registration{
+  margin: 100px 0;
+}
+.Registration .form-wrapper{
+  padding: 50px;
+  box-shadow: 4px 4px 8px 0px #0000000D;
+border-radius: 8px;
+box-shadow: -2px -2px 4px 0px #0000000D;
+
+}
+.Registration .regi-heading{
+  color: #A0A6AC;
+  font-size: 36px;
+  font-weight: 600;
+}
+.Registration.label-text{
+  color: #7C838B;
+font-size: 14px;
+font-weight: 600;
+}
+.Registration.input-btn{
+  border: 1px solid #C6CBD0;
+  border-radius: 10px;
+ font-size: 14px;
+color: #A7ADB4;
+padding: 10px;
+}
+.Registration .input-btn::placeholder{
+  color: #A7ADB4;
+} 
+.Registration .input-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.Registration .input-width{
+  width: 49%;
+}
+@media screen and (max-width:576px) {
+    .Registration .input-width{
+  width: 100%;
+}
+ .contact-wrapper {
+    height: 30vh;
+  }
+  .contact-heading{
+font-size: 40px;
+  }
+ .key-heading{
+    font-size: 30px;
+    margin: 10px 0 0 0;
+  }
+}
+@media screen and (min-width:578px) and (max-width:992px) {
+    .contact-wrapper {
+        height: 41vh;
+    }
+    .contact-heading {
+        font-size: 50px;
+    }
+}
+.Registration .Submit-btn{
+  background-color: #479DFF;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 10px 60px;
+  border-radius: 4px;
+  border: none;
+  margin: 40px auto;
+}
+
+.main-header{
+  position: sticky !important;
+  top: 0;
+  background-color: #ffffff;
+} 
+
+/* header */
+.header-wrapper{
+  padding: 23px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Contactbtn{
+  background-color: #EC5B27;
+  font-size: 18px;
+  color: #ffffff;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 4px;
+}
+/* footer */
+.footer-wrapper{
+  background-color: #F6F6F6;
+  text-align: center;
+  padding: 55px 0 ;
+}
+.icon-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+@media screen and (min-width:578px) and (max-width:992px) {                              
+  .header-wrapper{
+    padding: 10px;
+  
+  }
+  .footer-wrapper{
+    padding: 30px 0 ;
+  }
+ 
+}
+@media screen and (max-width:576px) {
+  .footer-wrapper{
+    padding: 20px 0 ;
+  }
+  .header-logo{
+    width: 40%;
+  }
+  .Contactbtn {
+    font-size: 16px;
+    padding: 7px 25px;
+  
+}
+  .header-wrapper{
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+/* footer */
+.footer-wrapper{
+  background-color: #F6F6F6;
+  text-align: center;
+  padding: 55px 0 ;
+}
+.icon-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+@media screen and (min-width:578px) and (max-width:992px) {                              
+  .header-wrapper{
+    padding: 10px;
+  
+  }
+  .footer-wrapper{
+    padding: 30px 0 ;
+  }
+ 
+}
+@media screen and (max-width:576px) {
+  .footer-wrapper{
+    padding: 20px 0 ;
+  }
+  .header-logo{
+    width: 40%;
+  }
+  .Contactbtn {
+    font-size: 16px;
+    padding: 7px 25px;
+  
+}
+  .header-wrapper{
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
